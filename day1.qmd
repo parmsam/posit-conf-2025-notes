@@ -1,0 +1,43 @@
+# R in Production workshop with Hadley Wickham
+
+- [Github repo](https://github.com/posit-conf-2025/r-production)
+- [Book (draft)](https://r-in-production.org/)
+
+## Interesting articles
+- https://jtibs.substack.com/p/if-all-the-world-were-a-monorepo
+- https://jtibs.substack.com/p/finding-a-home-and-career-in-the
+
+## Interesting packages and tools
+
+### Workflow automation
+- https://usethis.r-lib.org/
+
+### Logging
+- https://daroczig.github.io/logger/
+- https://otel.r-lib.org/index.html
+    - https://opentelemetry.io/
+- https://connect.posit.cloud/home
+
+### Continuous deployment
+- Github Actions
+    - Adding secrets into Github Actions
+        - https://docs.github.com/en/actions/security-guides/encrypted-secrets
+
+### Package management
+- https://rstudio.github.io/renv/
+    - https://rstudio.github.io/renv/reference/activate.html
+
+### Data validation 
+- https://rstudio.github.io/pointblank/
+
+### Reading and writing data
+- Advantages of Parquet
+- https://r-lib.github.io/nanoparquet/
+- https://r4ds.hadley.nz/arrow
+- https://duckdblabs.github.io/duckplyr/
+
+## Style guides
+
+- https://github.com/jtleek/rpackages
+- https://github.com/jtleek/datasharing
+- https://code-review.tidyverse.org/
