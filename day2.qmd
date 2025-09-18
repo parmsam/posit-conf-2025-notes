@@ -1,0 +1,26 @@
+# Day 1
+
+## Obsidian
+- https://obsidian.md/
+- https://stephango.com/
+
+## Air
+- https://posit-dev.github.io/air/cli.html
+
+## Positron
+- https://positron.posit.co/databot.html
+
+## Vitals
+- https://vitals.tidyverse.org/
+- https://github.com/simonpcouch/conf-25
+
+## Shinyreact
+- https://github.com/wch/shiny-react
+- https://github.com/wch/create-shiny-react-app
+
+## Shinystate
+- https://github.com/rpodcast/shinystate/
+
+## Otel
+- https://otel.r-lib.org/index.html
+    - https://opentelemetry.io/
