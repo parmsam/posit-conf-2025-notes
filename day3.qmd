@@ -1,0 +1,44 @@
+# Day 3: Conf Day 2
+
+## Trustworthy Data Visualization - Kieran Healy
+
+-   Stock market charts
+    -   How Charts Can Help You in the Stock Market by William L. Jiler
+    -   Technical Analysis of Stock Trends 11th edition
+    -   Telltale patterns
+-   Efficient market hypothesis
+-   Change in reporting requirements
+    -   If there is a sudden shift in a time series, your first question should be did something in the data generating process change?
+    -   Find somebody who knows where the data came from
+    -   Example from USDA and Vox article: https://www.vox.com/science-and-health/2017/2/2/14485226/americans-avocado-consumption-usda-report
+    -   ![](https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/7917595/Screen_Shot_2017_02_02_at_11.30.31_AM.png?quality=90&strip=all&crop=0,0,100,100) 
+    -  "In 2000, the number of firms reporting vegetable oil production to the U.S. Census Bureau increased significantly, causing the availability of salad and cooking oils and shortening to increase 23 percent (from 49.7 pounds per person in 1999 to 65.3 pounds person in 2000). While the number of firms most likely increased incrementally over time and not during that single year, the spike could"
+    -   https://ers.usda.gov/sites/default/files/\_laserfiche/publications/82220/EIB-166.pdf?v=23033
+- On the data generating process
+    -   "If you want to measure change, you can't change the measure," is a cornerstone of sound research and is associated with institutions like the National Opinion Research Center (NORC). It is often attributed to sociologist Tom Smith, a longtime director of the General Social Survey (GSS) at NORC
+    - https://aapor.org/standards-and-ethics/best-practices/#1668111600128-09f5c4fa-1e82
+-   Graphs are not the full story
+-   3d graphs are usually bad
+    - For example 3d bar charts or 3d pie charts
+- Constraints
+    - Methods for visualization have to deal with constraints of the human visual system
+- Tools for data visualization
+    - https://www.tidyverse.org/blog/2025/09/ggplot2-4-0-0/
+- Trust in data visualization
+- Blindly adhering to rules is not a good idea
+    - Some principles in data visualization aren't universal
+        -  For example, zeroing the y-axis is not always necessary and sometimes it can make it harder to see important changes in the data
+        - Plot of all cause mortality in USA as an example
+- On transparency
+    - Providing context with data visualization is important to avoid misleading interpretations and controversies
+    - Tools for data visualization don't automate the process of discovery
+- NOAA Sea Surface measurements
+    - Ocean surface temperature measurements were dont by wooden bucket before WWII, now they are done by engine intake
+    - Wooden bucket measurements were biased low because of evaporation cooling
+    - They call this the bucket correction
+    - https://www.ncei.noaa.gov/news/planet-postcard-bucket-full-data
+    - "To measure sea surface temperatures, sailors would lower buckets over the sides of their ships to collect a sample of seawater. Then, they would hoist the bucket back up to the ship deck, and record the temperature reading in the ship’s logbook... As you can probably imagine, these measurements weren’t always the most accurate as the temperature of the water in the bucket could be cooled by evaporation or warmed by the sun as the bucket was hauled back on board and while the thermometer was reaching a stable reading. Overall the cooling effect of evaporation dominates, and bucket measurements are adjusted to account for these effects. Almost all sea surface temperature measurements were made using buckets until World War II, when it became more common to report the temperature of the seawater pumped aboard to cool the engines. As late as the late 1970s, bucket use contributed to nearly half of all sea surface temperature measurements."
+- The data generation process is a dynamic human process that can change over time and affect the data
+- Always ask about the data generation process
+- Always consider the context of the data
+- The visualization is the tip of the spear
