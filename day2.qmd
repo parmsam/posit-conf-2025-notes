@@ -7,9 +7,6 @@
 ## Air
 - https://posit-dev.github.io/air/cli.html
 
-## Positron
-- https://positron.posit.co/databot.html
-
 ## Vitals
 - https://vitals.tidyverse.org/
 - https://github.com/simonpcouch/conf-25
@@ -24,3 +21,65 @@
 ## Otel
 - https://otel.r-lib.org/index.html
     - https://opentelemetry.io/
+
+## LLM open source packages and libraries
+- https://ellmer.tidyverse.org/
+- https://posit-dev.github.io/chatlas/
+
+## Tool calling
+- https://ellmer.tidyverse.org/articles/tool-calling.html#using-the-tool
+
+## Posit AI's newsletter
+- https://posit.co/blog/?post_tag=ai-newsletter
+
+## Structured data extraction
+- https://ellmer.tidyverse.org/articles/prompt-design.html#structured-data
+
+## Querychat
+- https://github.com/posit-dev/querychat
+
+## Shinyrealtime
+- https://github.com/posit-dev/shinyrealtime
+- https://platform.openai.com/docs/api-reference/realtime
+
+## ggbot2
+- https://github.com/tidyverse/ggbot2
+
+## Positron assistant
+- https://positron.posit.co/assistant.html
+- Assistant can explain or fix warnings/errors
+- Currently require Anthropic API key
+    - Will be via various providers such as Copilot, AWS Bedrock, LLM gateways, Databricks, Snowflake, etc
+- Support for other models TBD
+- "Lethal Trifecta" and "OWASP LLM Top 10"
+- Lethal Trifecta: Three vulnerabilities that become extremely dangerous when combined together
+    - https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/
+    - Remote code execution + privilege escalation + lateral movement
+    - SQL injection + weak authentication + data exposure
+    - XSS + session flaws + poor authorization
+    - The key idea: separate vulnerabilities become much worse when exploited together.
+- OWASP LLM Top 10: Security framework for Large Language Model applications
+    1. **Prompt Injection** - Manipulating AI inputs to override instructions
+    2. **Insecure Output Handling** - Not validating AI outputs properly
+    3. **Training Data Poisoning** - Corrupting the data used to train models
+    4. **Model Denial of Service** - Overloading AI systems with expensive requests
+    5. **Supply Chain Vulnerabilities** - Risks from third-party models/data
+    6. **Sensitive Information Disclosure** - AI accidentally revealing private data
+    7. **Insecure Plugin Design** - Vulnerable AI extensions/add-ons
+    8. **Excessive Agency** - Giving AI too much autonomy/permissions
+    9. **Overreliance** - Trusting AI outputs without sufficient oversight
+    10. **Model Theft** - Stealing proprietary AI models
+
+## Positron's databot
+- https://positron.posit.co/databot.html
+- WEAR Loop
+    - Writing Python or R code
+    - Executing code
+    - Analyzing output of code
+    - Repeats 3-5 times
+    - Regrouping by suggesting next steps and wait for user input
+- Repeat until satisfied or max iterations reached
+- Extract insights into report (Quarto or Jupyter Notebook)
+- https://posit.co/blog/introducing-databot/
+- https://posit.co/blog/databot-is-not-a-flotation-device/
+- Not a replacement for data scientists or analysts

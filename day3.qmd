@@ -1,7 +1,37 @@
 # Day 3: Conf Day 2
 
-## Trustworthy Data Visualization - Kieran Healy
+## Mirai + Purrr
+- https://github.com/shikokuchuo/posit2025
+- https://shikokuchuo-posit2025.share.connect.posit.cloud/
 
+## Multiverse 
+- https://github.com/wlandau/posit2025
+- https://wlandau.github.io/posit2025/#/section
+- Central publishing
+    - CRAN
+- Self publishing
+    - Github
+    - R-universe
+- Dual publishing 
+    - Multiverse is build on top of R-universe
+    - A centralized location for self-published releases
+    - Fully automated quality control for production
+
+## Dealing with spreadsheets
+- Formatted Spreadsheets automatically converted into gt objects
+    - https://github.com/luisDVA/forgts
+- https://github.com/luisDVA/unheadr
+- https://luisdva.github.io/rstats/problematic-spreadsheets/
+    - Tidyxl
+    - https://nacnudus.github.io/tidyxl/index.html
+- https://luisdva.github.io/pls-don%27t-do-this/
+
+## Trustworthy Data Visualization - Kieran Healy
+- Books from Kieran Healy
+    - Data Visualization: A Practical Introduction
+    - https://socviz.co/
+    - Ordinal Society
+    - https://www.hup.harvard.edu/books/9780674971141
 -   Stock market charts
     -   How Charts Can Help You in the Stock Market by William L. Jiler
     -   Technical Analysis of Stock Trends 11th edition
