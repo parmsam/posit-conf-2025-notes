@@ -1,5 +1,8 @@
 # Day 2: Conf Day 1
 
+## Plumber2
+- https://plumber2.posit.co/
+
 ## Obsidian
 - https://obsidian.md/
 - https://stephango.com/

@@ -26,6 +26,13 @@
     - https://nacnudus.github.io/tidyxl/index.html
 - https://luisdva.github.io/pls-don%27t-do-this/
 
+## Rust in R
+- https://github.com/ixpantia/orbweaver-r
+- https://github.com/extendr/extendr
+- https://extendr.rs/
+- https://github.com/r-lib/rig
+- https://github.com/A2-ai/rv
+
 ## Trustworthy Data Visualization - Kieran Healy
 - Books from Kieran Healy
     - Data Visualization: A Practical Introduction
