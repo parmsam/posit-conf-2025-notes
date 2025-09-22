@@ -1,7 +1,40 @@
 # Day 2: Conf Day 1
 
+## 10 Years of Data Science Tools... and What Happens Next
+- Thinking, then writing to thinking by writing 
+- Nietzsche and the impact of his typewriter on his writing
+- Tools aren't interchangeable
+- Tools can shape our thinking
+    - The tools you make and use matter alot
+- Connect the people who make the tools directly with the people who use them
+    - Cut out the unnecessary middleman
+- Sampling bias
+    - If you just listen to the loudest voices, you will get a biased sample
+- Missing values
+    - Users mostly don't know what they want
+    - Sometimes you have to fill in the blanks
+- Watch people use your tool. You will always be surprised.
+    - People do things you didn't expect
+- Make complicated things simple
+- Take complexity away from the user and put it in the tool
+- Meet people where they are
+    - Even if it's not where you want them to be, meet them there first
+    - People don't always follow best practices and shouldn't always be expected to
+    - You need to compromise on enforcing reproducibility to make a tool more ergonomic
+- Empowering your users 
+    - Extensions and plugins
+    - Shortcuts
+- A tools output is shaped by it's design
+    - The world we experience is shaped by the output of many tools
+    - A tool is a statement of what you want the world to become
+
+
 ## Plumber2
 - https://plumber2.posit.co/
+- https://plumber2.posit.co/articles/routing-and-input.html?q=param#required-parameters
+- Async built in using mirai
+- Support for Shiny
+- Support for Quarto
 
 ## Obsidian
 - https://obsidian.md/
